@@ -4,7 +4,7 @@
 #
 Name     : ppft
 Version  : 1.6.6.4
-Release  : 2
+Release  : 3
 URL      : https://github.com/uqfoundation/ppft/releases/download/ppft-1.6.6.4/ppft-1.6.6.4.tar.gz
 Source0  : https://github.com/uqfoundation/ppft/releases/download/ppft-1.6.6.4/ppft-1.6.6.4.tar.gz
 Summary  : distributed and parallel python
@@ -15,12 +15,12 @@ Requires: ppft-license = %{version}-%{release}
 Requires: ppft-python = %{version}-%{release}
 Requires: ppft-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(six)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 ### VERSION 1.6.6.3 ###
@@ -74,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1638309606
+export SOURCE_DATE_EPOCH=1644189858
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
