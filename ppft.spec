@@ -7,7 +7,7 @@
 #
 Name     : ppft
 Version  : 1.7.6.9
-Release  : 15
+Release  : 16
 URL      : https://github.com/uqfoundation/ppft/releases/download/1.7.6.9/ppft-1.7.6.9.tar.gz
 Source0  : https://github.com/uqfoundation/ppft/releases/download/1.7.6.9/ppft-1.7.6.9.tar.gz
 Summary  : distributed and parallel Python
